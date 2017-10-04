@@ -1,0 +1,75 @@
+                    html,
+                    body,
+                    .block {
+                        height: 100%;
+                    }
+                    
+                    nav ul li a:hover,
+                    nav ul li a.active {
+                        background-color: rgba(0, 0, 0, .1);
+                    }
+                    
+                    footer {
+                        padding-left: 0;
+                    }
+                    
+                    .header {
+                        margin-top: 200px;
+                        font-size: 6em;
+                        font-weight: 100 !important;
+                        color: #1de9c3;
+                        text-align: center;
+                        text-transform: uppercase;
+                        /*    font-family: "italic" !important; */
+                    }
+                    
+                    .meader {
+                        margin-top: 50px;
+                        font-size: 3em;
+                        font-weight: 100;
+                        color: #1de9c3;
+                        text-align: left;
+                        text-transform: uppercase;
+                    }
+                    
+                    .imt {
+                        padding: 50px;
+                        height: 450px;
+                        width: 600px;
+                        /* padding: 0px;
+        /* margin-top: 20px;
+        margin-bottom: 50px;
+        margin-left: 20px;
+        margin-right: 3px; */
+                    }
+                    
+                    .icx1 {
+                        padding: 90px;
+                        margin-left: -110px;
+                        margin-right: 0px;
+                        text-align: left;
+                    }
+                    
+                    .icx2 {
+                        padding: 90px;
+                        margin-left: -90px;
+                        margin-right: 0px;
+                    }
+                    
+                    .icx3 {
+                        padding: 90px;
+                        margin-left: -75px;
+                        margin-right: 0px;
+                    }
+                    
+                    .curve {
+                        border: 2px solid;
+                        border-radius: 15px 50px;
+                        color: rgb(255, 255, 255);
+                    }
+                    
+                    .dx {
+                        color: #76767F;
+                        font-size: 2em;
+                        padding: -60px;
+                    }

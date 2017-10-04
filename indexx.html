@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        $(document).ready(function() {
+            $("icx1").click(function() {
+                $("icx1").hide();
+            });
+        });
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" href="main.css">
+    <!--Let browser know website is optimized for mobile-->
+</head>
+
+<body>
+
+    <div class="navbar-fixed">
+
+        <nav>
+            <div class="nav-wrapper black">
+                <a href="#" class="brand-logo"> <i class="large material-icons" style="font-size: 50px">account_balance</i></a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse"> <i class="material-icons">menu </i> </a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <a class="waves-effect waves-light btn-large curve">Search</a>
+                    <li><a href="#">Lets</a></li>
+                    <li><a href="#">Get</a></li>
+                    <li><a href="#">Connected</a></li>
+                </ul>
+
+                <ul class="side-nav" id="mobile-demo">
+                    <li><a href="sass.html">Lets</a></li>
+                    <li><a href="badges.html">Get</a></li>
+                    <li><a href="collapsible.html">Started</a></li>
+                </ul>
+
+            </div>
+        </nav>
+
+    </div>
+    <!--navbar fixed-->
+
+    <div class="parallax-container" style="height:100vh;">
+        <div class="caption center-align">
+            <h1 class="header">Neuro gym!
+
+            </h1>
+            <br>
+            <!--             <span class="dx">Welcome </span> -->
+            <div class="center-align"> <a class=" waves-effect btn" onclick="Materialize.toast('You Are In Sir',4000)">
+                    Go IN!</a></div>
+
+        </div>
+        <div class=" parallax "><img src="https://cdn.shopify.com/s/files/1/1775/8583/t/1/assets/poly2.jpg "></div>
+    </div>
+    <div class="parallax-container ">
+        <div class="parallax "><img src="https://cdn.shopify.com/s/files/1/1775/8583/t/1/assets/poly5.jpg"></div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col s6">
+                    <h2 align="left" class="meader">Workout</h2>
+                    <br>
+                    <blockquote class="white-text dx ">Mens </blockquote><br>
+                    <blockquote class="white-text dx ">Womens </blockquote><br>
+                    <blockquote class="white-text dx ">Kids </blockquote>
+                </div>
+                <div class="col s6">
+                    <img class="icx3 responsive-img" src="http://nregs-mp.org/eService/images/User.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="parallax-container ">
+        <div class="parallax "><img src="https://cdn.shopify.com/s/files/1/1775/8583/t/1/assets/poly2.jpg"></div>
+
+        <div class="container">
+            <div class="row">
+                <div class=" col s4">
+                    <div class="icx1 responsive-img"><img src="http://icons.iconarchive.com/icons/double-j-design/origami-colored-pencil/256/blue-user-icon.png">
+                        <p style="font-size=50em;">Pradeep</p>
+                    </div>
+                </div>
+                <div class="col s4">
+                    <div class="icx2 responsive-img"> <img src="http://icons.iconarchive.com/icons/double-j-design/origami-colored-pencil/256/blue-user-icon.png">
+                    </div>
+
+                </div>
+                <div class="col s4">
+                    <div class="icx3 responsive-img">
+                        <img src="http://icons.iconarchive.com/icons/double-j-design/origami-colored-pencil/256/blue-user-icon.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="page-footer purple ">
+        <div class="container ">
+            <div class="row ">
+                <div class="col l6 s12 ">
+                    <h5 class="white-text ">Neuro Gym & Co.</h5>
+                    <p class="grey-text text-lighten-4 ">You can use rows and columns here to organize your footer content.</p>
+                </div>
+                <div class="col l4 offset-l2 s12 ">
+                    <h5 class="white-text ">ADMINSTRATOR</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3 " href="#! ">Admin 1</a></li>
+                        <li><a class="grey-text text-lighten-3 " href="#! ">Admin 2</a></li>
+                        <li><a class="grey-text text-lighten-3 " href="#! ">Admin 3</a></li>
+                        <li><a class="grey-text text-lighten-3 " href="#! ">Admin 4</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright ">
+            <div class="container ">
+                © 2017 Neuro Gym
+                <a class="grey-text text-lighten-4 right " href="#! ">Facebook@NeuroGym</a>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript " src="https://code.jquery.com/jquery-3.2.1.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js "></script>
+    <script>
+        $(document).ready(function() {
+            $('.parallax').parallax();
+        });
+
+        $(".button-collapse").sideNav();
+    </script>
+
+</body>
+
+</html>
